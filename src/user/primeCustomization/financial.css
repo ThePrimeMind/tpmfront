@@ -1,0 +1,105 @@
+/* NEED TO MAKE PAGE RESPONSIVE */
+
+.financialMainHeader {
+    background-color:#1ab7ea;
+    border: 1px solid black;
+    /* font-weight: bold; */
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    margin: 0;
+}
+
+.financialDiv {
+  background-color: black;
+  color: white;
+  padding: 30px 0;
+  margin: 0;
+  text-align: center;
+
+}
+
+.financialHeader {
+    background-color:#1ab7ea;
+    color: white;
+    padding: 15px 0;
+    margin: 0;
+    text-align: center;
+ }
+
+.financialHeader2 {
+    background-color:#d3d3d3;
+    border: 1px solid black;
+    font-weight: bold;
+    padding: 15px 0;
+    margin: 0;
+    text-align: center;
+ }
+
+ .financialNotes {
+   background-color: black;
+    color: #1ab7ea;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+    padding: 30px;
+    margin-bottom: 30px;
+ }
+
+.financialTerm {
+    font-weight: bold;
+}
+
+.financialLineHeight {
+    line-height: 50px;
+    padding: 20px 20px 10px;
+}
+
+ .financialBorder {
+     border: .5px solid black;
+ }
+
+ .financialFontWeight {
+   font-weight: bold;
+   padding-top: 20px;
+ }
+
+ .financialFontWeight2 {
+  font-weight: bold;
+   background-color:#1ab7ea;
+   text-align: center;
+}
+
+.financialCenterList{
+    display: flex;
+    justify-content: center;
+  }
+
+  .financialCenterList2{
+    display: table;
+    margin-right: auto;
+    margin-left: auto;
+
+    /* margin: 15px 5% 15px 18%; */
+  }
+
+
+/* RESPONSIVE
+ .foo {
+    background-color: red;
+    width: 100%;
+    margin: 0 auto;
+  
+    Small Devices, Tablets
+    @media only screen and (min-width : 768px) {
+      width: 75%;
+      background-color: green;
+    }
+  
+    Medium Devices, Desktops
+    @media only screen and (min-width : 992px) {
+      width: 50%;
+      background-color: pink;
+    }
+  }  */
+

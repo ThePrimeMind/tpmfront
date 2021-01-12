@@ -1,0 +1,37 @@
+.processMainHeader {
+    background-color:#1ab7ea;
+    border: 1px solid black;
+    /* font-weight: bold; */
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    margin: 0;
+}
+
+.processHeader {
+    background-color:#1ab7ea;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+ }
+
+ .processHeader2 {
+    background-color:black;
+    color: white;
+    padding: 30px 0;
+    margin: 0;
+    text-align: center;
+ 
+ }
+ 
+
+ .processBorder {
+     border: .5px solid black;
+ }
+
+ .processTableHeader{
+    font-size: 1.4rem;
+    text-align: center;
+    vertical-align: middle;
+ }
+

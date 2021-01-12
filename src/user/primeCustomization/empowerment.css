@@ -1,0 +1,35 @@
+.empowermentMainHeader {
+    background-color:#1ab7ea;
+    border: 1px solid black;
+    /* font-weight: bold; */
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    margin: 0;
+}
+
+.empowermentHeader {
+    background-color:black;
+    border: 1px solid black;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    margin: 0;
+}
+
+.empowermentTableHeader{
+    background-color:#1ab7ea;
+    width: 50%;
+    vertical-align: middle;
+}
+
+.empowermentBoldText {
+    color: white;
+    padding: 30px;
+}
+
+.empowermentLineHeight{
+    line-height: 40px;
+}
+

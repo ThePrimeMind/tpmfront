@@ -1,0 +1,71 @@
+.button1 {
+    border-radius: 25px;
+    color: #1ab7ea;
+    border: 1px solid #1ab7ea;
+    margin-top: 30px;
+}
+
+.button2 {
+    border-radius: 25px;
+    color: black;
+    border: 1px solid #1ab7ea;
+    margin-top: 30px;
+}
+
+.preneurMainHeader {
+    background-color:#1ab7ea;
+    color: white;
+    padding: 30px 0;
+    margin: 0;
+    text-align: center;
+
+ }
+
+ .preneurDiv {
+    background-color:#1ab7ea;
+    color: white;
+    border: 1px solid black;
+    padding: 15px 15px;
+    margin: 0;
+    text-align: center;
+
+ }
+
+ .preneurDiv2 {
+    background-color:#d3d3d3;
+    font-weight: bold;
+    padding: 15px 0;
+    margin: 0;
+    text-align: center;
+
+ }
+
+ .preneurDiv3 {
+    font-weight: bold;
+    padding: 15px 0;
+    margin: 0;
+    text-align: center;
+
+ }
+
+ .preneurDiv4 {
+     background-color: black;
+     color: white;
+    padding: 30px 0;
+    margin: 0;
+    text-align: center;
+
+ }
+
+ .preneurHeader {
+    border: 1px solid black;
+    font-weight: bold;
+    padding: 30px;
+    margin: 0;
+    text-align: center;
+ }
+
+ .prenuerLabelHeader{
+     padding: 30px;
+     margin-top: 30px;
+ }

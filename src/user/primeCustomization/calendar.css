@@ -1,0 +1,54 @@
+.calendarMainHeader {
+    background-color:#1ab7ea;
+    border: 1px solid black;
+    /* font-weight: bold; */
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+    margin: 0;
+}
+
+.calendarMainHeading {
+    
+    /* font-weight: bold; */
+    text-align: center;
+    padding: 30px 0;
+    margin: 0;
+}
+
+.calendarTextHeading{
+    text-align: center;
+    padding: 10px 0 20px 0;
+    line-height: 50px;
+}
+
+.calendarHeading {
+    background-color:#1ab7ea;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 0;
+ }
+
+ .calendarHeading2 {
+    background-color: #d3d3d3;
+    text-align: center;
+    font-weight: bold;
+    padding: 15px 0;
+    margin-bottom: 0;
+ }
+
+ .calendarHeading3 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding: 30px 0;
+    margin: 0;
+ }
+
+.calendarPadding {
+    margin: 20px 20px;
+    padding: 20px 20px;
+    
+}
