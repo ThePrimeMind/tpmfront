@@ -754,7 +754,7 @@ class Primepreneur extends Component {
 
                             <tr style={{width: "auto", textAlign: "center", fontWeight: "bold"}}>
                                 <td  className= "preneurDiv" style={{verticalAlign: "middle"}} >My Total Monthly Cost:</td>
-                                <td>$  <textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Total amount made for each sale"></textarea>(Fixed Cost)
+                                <td>$  <textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Monthly Expenses Total"></textarea>(Fixed Cost)
                                 </td>
                             </tr>
                                 <tr>
@@ -772,7 +772,7 @@ class Primepreneur extends Component {
                                 <td>$  <textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Gross Profit per Unit"></textarea> = <br/>
                                 <textarea className="form-control" style={{textAlign: "center", width: "auto", display: "inline"}} id="exampleTextarea" rows="1" placeholder="Number of Contracts" alt="Amount of items being sold"></textarea>  
                                     Contracts of <br/> 
-                                $<textarea className="form-control" style={{textAlign: "center", width: "auto", display: "inline"}} id="exampleTextarea" rows="1" placeholder="Cost per Unit"></textarea><br/>
+                                $<textarea className="form-control" style={{textAlign: "center", width: "auto", display: "inline"}} id="exampleTextarea" rows="1" placeholder="Sales Price per Unit"></textarea><br/>
                                  per month...
                                 
                                 </td>
@@ -792,7 +792,7 @@ class Primepreneur extends Component {
                               <h5>  If I sell at least 
                                  <textarea className="form-control" style={{textAlign: "center", width: "5%", display: "inline"}} id="exampleTextarea" rows="1" placeholder="#" alt="Units Sold"></textarea>  
                                 contracts at $  
-                                <textarea className="form-control" style={{textAlign: "center", width: "auto", display: "inline"}} id="exampleTextarea" rows="1" placeholder="Cost per Unit"></textarea> (Monthly)...<br/>
+                                <textarea className="form-control" style={{textAlign: "center", width: "auto", display: "inline"}} id="exampleTextarea" rows="1" placeholder="Sales Price per Unit"></textarea> (Monthly)...<br/>
                                 
 
                                 Ultimately, I need 
