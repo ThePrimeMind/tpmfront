@@ -745,7 +745,7 @@ class Primepreneur extends Component {
                                 
                             <td colspan="2"> <textarea className="form-control" style={{textAlign: "center", width: "5%", display: "inline"}} id="exampleTextarea" rows="1" placeholder="#" alt="Amount of items being sold"></textarea>  
                                 Numbers of Contracts at: $  
-                                <textarea className="form-control" style={{textAlign: "center", width: "auto", display: "inline"}} id="exampleTextarea" rows="1" placeholder="Cost per Unit"></textarea><br/>
+                                <textarea className="form-control" style={{textAlign: "center", width: "auto", display: "inline"}} id="exampleTextarea" rows="1" placeholder="Sales Price per Unit"></textarea><br/>
                                 covers $ 
                                 <textarea className="form-control" style={{textAlign: "center", width: "auto", display: "inline"}} id="exampleTextarea" rows="1" placeholder="Monthly cost"></textarea>    
                                    in monthly costs...
