@@ -40,10 +40,10 @@ class Design extends Component {
                     <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #1"></input>
                     <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
                 </form>  
-                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #2"></input>
+                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Objective #1"></input>
                     <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
                 <form>  
-                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #3"></input>
+                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Objective #2"></input>
                     <button className="btn btn-raised button1 mb-5" type="submit">Complete</button><br/>
                 </form> 
                 </div>
