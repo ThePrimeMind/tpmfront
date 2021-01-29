@@ -754,11 +754,7 @@ class Primepreneur extends Component {
 
                             <tr style={{width: "auto", textAlign: "center", fontWeight: "bold"}}>
                                 <td  className= "preneurDiv" style={{verticalAlign: "middle"}} >My Total Monthly Cost:</td>
-<<<<<<< HEAD
                                 <td>$  <textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Total Monthly Expenses"></textarea>(Fixed Cost)
-=======
-                                <td>$  <textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Monthly Expenses Total"></textarea>(Fixed Cost)
->>>>>>> 63be8522bdfe1429a04ab767ffa1767a863a938a
                                 </td>
                             </tr>
                                 <tr>
