@@ -864,6 +864,11 @@ class Primepreneur extends Component {
 
                 <table className="table table-striped table-bordered">
                     <tbody>
+
+                        <th className="preneurDiv3" style={{width: "20%"}}>Calculation Projections</th>
+                        <th className="preneurDiv3">Month 1</th>
+                        <th className="preneurDiv3">Month 2</th>
+                        <th className="preneurDiv3">Month 3</th>
                         <tr>
                             <td className= "preneurDiv3">Monthly Cash (Sales Income - Total Expenses)</td>
                             <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Cash"></textarea></td>
