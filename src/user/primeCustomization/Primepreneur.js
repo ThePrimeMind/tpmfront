@@ -856,7 +856,14 @@ class Primepreneur extends Component {
                             <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Expense"></textarea></td>
                             <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Expense"></textarea></td>
                         </tr>
+                    </tbody>
+                </table>
 
+                    <h4 className="preneurDiv">PROJECTED CALCULATIONS</h4>
+                    <h5 className="preneurDiv2">Monthly Calculated Projections</h5>
+
+                <table>
+                    <tbody>
                         <tr>
                             <td className= "preneurDiv3">Monthly Cash (Sales Income - Total Expenses)</td>
                             <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Cash"></textarea></td>
