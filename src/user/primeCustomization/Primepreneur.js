@@ -736,23 +736,7 @@ class Primepreneur extends Component {
                     <h5 className="preneurDiv2">How much will you make after each sale?</h5>
                    <table className="table table-striped table-bordered">
                        <tbody>
-                            <tr style={{width: "auto"}}>
-                                <td className="preneurDiv" style={{verticalAlign: "middle"}}>Gross Profit Per Unit</td>
-                                <td>$  <textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="2" placeholder="Total amount made for each sale"></textarea></td>
-                            </tr>
-
-                            <tr className="preneurDiv3" style={{lineHeight: "100px"}}>
-                                
-                            <td colspan="2"> <textarea className="form-control" style={{textAlign: "center", width: "5%", display: "inline"}} id="exampleTextarea" rows="1" placeholder="#" alt="Amount of items being sold"></textarea>  
-                                Numbers of Contracts at: $  
-                                <textarea className="form-control" style={{textAlign: "center", width: "auto", display: "inline"}} id="exampleTextarea" rows="1" placeholder="Sales Price per Unit"></textarea><br/>
-                                covers $ 
-                                <textarea className="form-control" style={{textAlign: "center", width: "auto", display: "inline"}} id="exampleTextarea" rows="1" placeholder="Total Amount"></textarea>    
-                                   in monthly costs...
-                            </td>      
-                            </tr>
-
-                            <tr style={{width: "auto", textAlign: "center", fontWeight: "bold"}}>
+                       <tr style={{width: "auto", textAlign: "center", fontWeight: "bold"}}>
                                 <td  className= "preneurDiv" style={{verticalAlign: "middle"}} >My Total Monthly Cost:</td>
                                 <td>$  <textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Total Monthly Expenses"></textarea>(Fixed Cost)
                                 </td>
@@ -778,15 +762,17 @@ class Primepreneur extends Component {
                                 </td>
                             </tr>
 
-                            <tr style={{lineHeight: "100px"}}>
-                                <td colspan="2" style={{padding: "0"}}>
-                                    <h5 className="preneurDiv3" style={{padding: "50px"}}>$  <textarea className="form-control" style={{textAlign: "center", width: "5%", display: "inline"}} id="exampleTextarea" rows="1" placeholder="#" alt="Gross Profit"></textarea>  
-                                    Gross Profit per Unit (multiplied by)  
-                                    <textarea className="form-control" style={{textAlign: "center", width: "auto", display: "inline"}} id="exampleTextarea" rows="1" placeholder="Units Sold"></textarea>
-                                    = $ 
-                                    <textarea className="form-control" style={{textAlign: "center", width: "auto", display: "inline"}} id="exampleTextarea" rows="1" placeholder="Total Amount"></textarea> </h5> 
-                                </td>
+                            <tr className="preneurDiv3" style={{lineHeight: "100px"}}>
+                                
+                            <td colspan="2"> <textarea className="form-control" style={{textAlign: "center", width: "5%", display: "inline"}} id="exampleTextarea" rows="1" placeholder="#" alt="Amount of items being sold"></textarea>  
+                                Numbers of Contracts at: $  
+                                <textarea className="form-control" style={{textAlign: "center", width: "auto", display: "inline"}} id="exampleTextarea" rows="1" placeholder="Sales Price per Unit"></textarea><br/>
+                                covers $ 
+                                <textarea className="form-control" style={{textAlign: "center", width: "auto", display: "inline"}} id="exampleTextarea" rows="1" placeholder="Total Amount"></textarea>    
+                                   in monthly costs...
+                            </td>      
                             </tr>
+
                             <tr> 
                              <td colspan="2" className="preneurDiv2 mt3 mb-3" style={{margin: "auto", textAlign: "center", padding: "30px"}}>  
                               <h5>  If I sell at least 
