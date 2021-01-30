@@ -851,98 +851,35 @@ class Primepreneur extends Component {
                         <th className="preneurDiv3">Month 3</th>
 
                         <tr>
-                            <td className= "preneurDiv">Materials/Supplies</td>
+                            <td className= "preneurDiv3">Total Monthly Expenses</td>
                             <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Expense"></textarea></td>
                             <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Expense"></textarea></td>
                             <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Expense"></textarea></td>
                         </tr>
 
                         <tr>
-                            <td className= "preneurDiv">Inventory Replacement</td>
-                            <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Expense"></textarea></td>
-                            <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Expense"></textarea></td>
-                            <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Expense"></textarea></td>
-                        </tr>
-
-                        <tr>
-                            <td className= "preneurDiv">Business Utilities</td>
-                            <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Expense"></textarea></td>
-                            <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Expense"></textarea></td>
-                            <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Expense"></textarea></td>
-                        </tr>
-
-                        <tr>
-                            <td className= "preneurDiv">Business Telephone</td>
-                            <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Expense"></textarea></td>
-                            <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Expense"></textarea></td>
-                            <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Expense"></textarea></td>
-                        </tr>
-
-                        <tr>
-                            <td className= "preneurDiv">Transportation</td>
-                            <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Expense"></textarea></td>
-                            <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Expense"></textarea></td>
-                            <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Expense"></textarea></td>
-                        </tr>
-
-                        <tr>
-                            <td className= "preneurDiv">Marketing</td>
-                            <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Expense"></textarea></td>
-                            <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Expense"></textarea></td>
-                            <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Expense"></textarea></td>
-                        </tr>
-
-                        <tr>
-                            <td className= "preneurDiv">Repairs and Maintenance</td>
-                            <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Expense"></textarea></td>
-                            <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Expense"></textarea></td>
-                            <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Expense"></textarea></td>
-                        </tr>
-
-                        <tr>
-                            <td className= "preneurDiv">Rent</td>
-                            <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Expense"></textarea></td>
-                            <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Expense"></textarea></td>
-                            <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Expense"></textarea></td>
-                        </tr>
-
-                        <tr>
-                            <td className= "preneurDiv">Other Sources of Cash</td>
-                            <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Expense"></textarea></td>
-                            <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Expense"></textarea></td>
-                            <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Expense"></textarea></td>
-                        </tr>
-
-                        <tr>
-                            <td className= "preneurDiv3">Total Expenses (1) and (2)</td>
-                            <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Expense"></textarea></td>
-                            <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Expense"></textarea></td>
-                            <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Expense"></textarea></td>
-                        </tr>
-
-                        <tr>
-                            <td className= "preneurDiv3">Monthly Cash (sum of 1)</td>
+                            <td className= "preneurDiv3">Monthly Cash (Sales Income - Total Expenses)</td>
                             <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Cash"></textarea></td>
                             <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Cash"></textarea></td>
                             <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Cash"></textarea></td>
                         </tr>
 
                         <tr>
-                            <td className= "preneurDiv3">Ending Cash (sum of 2)</td>
+                            <td className= "preneurDiv3">Ending Cash (Total Cash - Total Expenses)</td>
                             <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Cash"></textarea></td>
                             <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Cash"></textarea></td>
                             <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Cash"></textarea></td>
                         </tr>
 
                         <tr>
-                            <td className= "preneurDiv3">Owner's Salary (3)</td>
+                            <td className= "preneurDiv3">Owner's Salary (What's your cut!)</td>
                             <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Salary"></textarea></td>
                             <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Salary"></textarea></td>
                             <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Salary"></textarea></td>
                         </tr>
 
                         <tr>
-                            <td className= "preneurDiv3">Net Cash (3) <br/> (sum of 3) (place sum in month 2 of "Start-Up Cash)</td>
+                            <td className= "preneurDiv3">Net Cash (Ending Cash - Owner's Salary) <br/> (sum of 3) (place sum in month 2 of "Start-Up Cash)</td>
                             <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Net Cash"></textarea></td>
                             <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Net Cash"></textarea></td>
                             <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Net Cash"></textarea></td>
