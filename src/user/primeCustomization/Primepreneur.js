@@ -862,7 +862,7 @@ class Primepreneur extends Component {
                     <h4 className="preneurDiv">PROJECTED CALCULATIONS</h4>
                     <h5 className="preneurDiv2">Monthly Calculated Projections</h5>
 
-                <table>
+                <table className="table table-striped table-bordered">
                     <tbody>
                         <tr>
                             <td className= "preneurDiv3">Monthly Cash (Sales Income - Total Expenses)</td>
