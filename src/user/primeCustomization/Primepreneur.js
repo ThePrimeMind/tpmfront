@@ -755,9 +755,7 @@ class Primepreneur extends Component {
                                 </td>
                                 <td>$  <textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Gross Profit per Unit"></textarea> = <br/>
                                 <textarea className="form-control" style={{textAlign: "center", width: "auto", display: "inline"}} id="exampleTextarea" rows="1" placeholder="Number of Contracts" alt="Amount of items being sold"></textarea>  
-                                    Units Sold  <br/> 
-                                $<textarea className="form-control" style={{textAlign: "center", width: "auto", display: "inline"}} id="exampleTextarea" rows="1" placeholder="Sales Price per Unit"></textarea><br/>
-                                 per month...
+                                    Units Sold per month...
                                 
                                 </td>
                             </tr>
