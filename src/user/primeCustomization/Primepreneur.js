@@ -775,13 +775,7 @@ class Primepreneur extends Component {
 
                             <tr> 
                              <td colspan="2" className="preneurDiv2 mt3 mb-3" style={{margin: "auto", textAlign: "center", padding: "30px"}}>  
-                              <h5>  If I sell at least 
-                                 <textarea className="form-control" style={{textAlign: "center", width: "5%", display: "inline"}} id="exampleTextarea" rows="1" placeholder="#" alt="Units Sold"></textarea>  
-                                contracts at $  
-                                <textarea className="form-control" style={{textAlign: "center", width: "auto", display: "inline"}} id="exampleTextarea" rows="1" placeholder="Sales Price per Unit"></textarea> (Monthly)...<br/>
-                                
-
-                                Ultimately, I need 
+                              <h5>Ultimately, I need to sell 
                                 <textarea className="form-control" style={{textAlign: "center", width: "auto", display: "inline"}} id="exampleTextarea" rows="1" placeholder="Units Sold"></textarea> 
                                 to make a profit...   
                                 </h5>   
