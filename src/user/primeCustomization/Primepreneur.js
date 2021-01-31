@@ -862,28 +862,28 @@ class Primepreneur extends Component {
                         <th className="preneurDiv3">Month 2</th>
                         <th className="preneurDiv3">Month 3</th>
                         <tr>
-                            <td className= "preneurDiv3">Monthly Cash (Sales Income - Total Expenses)</td>
+                            <td className= "preneurDiv3">Monthly Cash <br/> (Sales Income - Total Expenses)</td>
                             <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Cash"></textarea></td>
                             <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Cash"></textarea></td>
                             <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Cash"></textarea></td>
                         </tr>
 
                         <tr>
-                            <td className= "preneurDiv3">Ending Cash (Total Cash - Total Expenses) </td>
+                            <td className= "preneurDiv3">Ending Cash <br/>(Total Cash - Total Expenses) </td>
                             <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Cash"></textarea></td>
                             <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Cash"></textarea></td>
                             <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Cash"></textarea></td>
                         </tr>
 
                         <tr>
-                            <td className= "preneurDiv3">Owner's Salary (What's your cut!)</td>
+                            <td className= "preneurDiv3">Owner's Salary <br/>(What's your cut!)</td>
                             <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Salary"></textarea></td>
                             <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Salary"></textarea></td>
                             <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Salary"></textarea></td>
                         </tr>
 
                         <tr>
-                            <td className= "preneurDiv3">Net Cash (Ending Cash - Owner's Salary) </td>
+                            <td className= "preneurDiv3">Net Cash <br/>(Ending Cash - Owner's Salary) </td>
                             <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Net Cash"></textarea></td>
                             <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Net Cash"></textarea></td>
                             <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Net Cash"></textarea></td>
