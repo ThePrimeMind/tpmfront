@@ -883,7 +883,7 @@ class Primepreneur extends Component {
                         </tr>
 
                         <tr>
-                            <td className= "preneurDiv3">Net Cash <br>(Ending Cash - Owner's Salary)</br> </td>
+                            <td className= "preneurDiv3">Net Cash (Ending Cash - Owner's Salary)  </td>
                             <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Net Cash"></textarea></td>
                             <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Net Cash"></textarea></td>
                             <td><textarea className="form-control" style={{textAlign: "center"}} id="exampleTextarea" rows="1" placeholder="Net Cash"></textarea></td>
