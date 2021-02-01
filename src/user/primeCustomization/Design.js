@@ -35,7 +35,8 @@ class Design extends Component {
                 
                 <div className="form-group designDiv3"  style={{width: "60%", margin:"auto"}}>
                      
-                    <label className="mb-5" for="exampleTextarea">Morning (6am to 12pm)</label><br/>
+                    <label className="mb-5" for="exampleTextarea">PLAN (Play Later, Act Now!)</label><br/>
+                    <button className="btn btn-raised button1 mb-5" type="submit">+</button><br/>
                 <form>     
                     <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #1"></input>
                     <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
@@ -46,34 +47,19 @@ class Design extends Component {
                     <input className="form-control" id="exampleTextarea" rows="2" placeholder="Objective #2"></input>
                     <button className="btn btn-raised button1 mb-5" type="submit">Complete</button><br/>
                 </form> 
-                </div>
-
-                <div className="form-group designDiv3"  style={{width: "60%", margin:"auto"}}>
-                    <label className="mb-5"  for="exampleTextarea">Afternoon (12pm to 6pm)</label><br/>
-                    <form>     
-                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #1"></input>
-                    <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
-                </form>  
-                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #2"></input>
-                    <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
                 <form>  
-                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #3"></input>
+                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Objective #3"></input>
                     <button className="btn btn-raised button1 mb-5" type="submit">Complete</button><br/>
-                </form> 
-                </div>
-
-                <div className="form-group designDiv3"  style={{width: "60%", margin:"auto"}}>
-                    <label className="mb-5"  for="exampleTextarea">Evening (6pm to 12am)</label><br/>
-                    <form>     
-                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #1"></input>
-                    <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
-                </form>  
-                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #2"></input>
-                    <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
+                </form>
                 <form>  
-                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #3"></input>
+                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Objective #4"></input>
                     <button className="btn btn-raised button1 mb-5" type="submit">Complete</button><br/>
-                </form> 
+                </form>
+                <form>  
+                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Objective #5"></input>
+                    <button className="btn btn-raised button1 mb-5" type="submit">Complete</button><br/>
+                </form>
+                </div>
                        
                 </div>
 
@@ -81,47 +67,33 @@ class Design extends Component {
 
                 <div className="designDiv"><h4>Day 2: To Connect</h4></div>
                 
-                            <div className="form-group designDiv3"  style={{width: "60%", margin:"auto"}}>
-                                
-                                <label className="mb-5" for="exampleTextarea">Morning (6am to 12pm)</label><br/>
-                            <form>     
-                                <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #1"></input>
-                                <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
-                            </form>  
-                                <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #2"></input>
-                                <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
-                            <form>  
-                                <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #3"></input>
-                                <button className="btn btn-raised button1 mb-5" type="submit">Complete</button><br/>
-                            </form> 
-                            </div>
-            
-                            <div className="form-group designDiv3"  style={{width: "60%", margin:"auto"}}>
-                                <label className="mb-5"  for="exampleTextarea">Afternoon (12pm to 6pm)</label><br/>
-                                <form>     
-                                <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #1"></input>
-                                <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
-                            </form>  
-                                <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #2"></input>
-                                <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
-                            <form>  
-                                <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #3"></input>
-                                <button className="btn btn-raised button1 mb-5" type="submit">Complete</button><br/>
-                            </form> 
-                            </div>
-            
-                            <div className="form-group designDiv3"  style={{width: "60%", margin:"auto"}}>
-                                <label className="mb-5"  for="exampleTextarea">Evening (6pm to 12am)</label><br/>
-                                <form>     
-                                <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #1"></input>
-                                <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
-                            </form>  
-                                <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #2"></input>
-                                <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
-                            <form>  
-                                <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #3"></input>
-                                <button className="btn btn-raised button1 mb-5" type="submit">Complete</button><br/>
-                            </form> </div>
+                <div className="form-group designDiv3"  style={{width: "60%", margin:"auto"}}>
+                     
+                    <label className="mb-5" for="exampleTextarea">PLAN (Play Later, Act Now!)</label><br/>
+                    <button className="btn btn-raised button1 mb-5" type="submit">+</button><br/>
+                <form>     
+                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #1"></input>
+                    <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
+                </form>  
+                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Objective #1"></input>
+                    <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
+                <form>  
+                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Objective #2"></input>
+                    <button className="btn btn-raised button1 mb-5" type="submit">Complete</button><br/>
+                </form> 
+                <form>  
+                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Objective #3"></input>
+                    <button className="btn btn-raised button1 mb-5" type="submit">Complete</button><br/>
+                </form>
+                <form>  
+                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Objective #4"></input>
+                    <button className="btn btn-raised button1 mb-5" type="submit">Complete</button><br/>
+                </form>
+                <form>  
+                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Objective #5"></input>
+                    <button className="btn btn-raised button1 mb-5" type="submit">Complete</button><br/>
+                </form>
+                </div>
 
                 <h4 className="designDiv4">Make it Happen! "The Prime Mind"</h4>
                 
@@ -130,137 +102,93 @@ class Design extends Component {
                
                 <div className="form-group designDiv3"  style={{width: "60%", margin:"auto"}}>
                      
-                     <label className="mb-5" for="exampleTextarea">Morning (6am to 12pm)</label><br/>
-                 <form>     
-                     <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #1"></input>
-                     <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
-                 </form>  
-                     <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #2"></input>
-                     <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
-                 <form>  
-                     <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #3"></input>
-                     <button className="btn btn-raised button1 mb-5" type="submit">Complete</button><br/>
-                 </form> 
-                 </div>
- 
-                 <div className="form-group designDiv3"  style={{width: "60%", margin:"auto"}}>
-                     <label className="mb-5"  for="exampleTextarea">Afternoon (12pm to 6pm)</label><br/>
-                     <form>     
-                     <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #1"></input>
-                     <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
-                 </form>  
-                     <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #2"></input>
-                     <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
-                 <form>  
-                     <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #3"></input>
-                     <button className="btn btn-raised button1 mb-5" type="submit">Complete</button><br/>
-                 </form> 
-                 </div>
- 
-                 <div className="form-group designDiv3"  style={{width: "60%", margin:"auto"}}>
-                     <label className="mb-5"  for="exampleTextarea">Evening (6pm to 12am)</label><br/>
-                     <form>     
-                     <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #1"></input>
-                     <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
-                 </form>  
-                     <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #2"></input>
-                     <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
-                 <form>  
-                     <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #3"></input>
-                     <button className="btn btn-raised button1 mb-5" type="submit">Complete</button><br/>
-                 </form> </div>
-
+                    <label className="mb-5" for="exampleTextarea">PLAN (Play Later, Act Now!)</label><br/>
+                    <button className="btn btn-raised button1 mb-5" type="submit">+</button><br/>
+                <form>     
+                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #1"></input>
+                    <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
+                </form>  
+                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Objective #1"></input>
+                    <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
+                <form>  
+                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Objective #2"></input>
+                    <button className="btn btn-raised button1 mb-5" type="submit">Complete</button><br/>
+                </form> 
+                <form>  
+                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Objective #3"></input>
+                    <button className="btn btn-raised button1 mb-5" type="submit">Complete</button><br/>
+                </form>
+                <form>  
+                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Objective #4"></input>
+                    <button className="btn btn-raised button1 mb-5" type="submit">Complete</button><br/>
+                </form>
+                <form>  
+                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Objective #5"></input>
+                    <button className="btn btn-raised button1 mb-5" type="submit">Complete</button><br/>
+                </form>
+                </div>
                 <h4 className="designDiv4">Make it Happen! "The Prime Mind"</h4>
 
                 <div className="designDiv"><h4>Day 4: To Supervise</h4></div>
                 
                 <div className="form-group designDiv3"  style={{width: "60%", margin:"auto"}}>
                      
-                    <label className="mb-5" for="exampleTextarea">Morning (6am to 12pm)</label><br/>
+                    <label className="mb-5" for="exampleTextarea">PLAN (Play Later, Act Now!)</label><br/>
+                    <button className="btn btn-raised button1 mb-5" type="submit">+</button><br/>
                 <form>     
                     <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #1"></input>
                     <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
                 </form>  
-                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #2"></input>
+                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Objective #1"></input>
                     <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
                 <form>  
-                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #3"></input>
+                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Objective #2"></input>
                     <button className="btn btn-raised button1 mb-5" type="submit">Complete</button><br/>
                 </form> 
-                </div>
-
-                <div className="form-group designDiv3"  style={{width: "60%", margin:"auto"}}>
-                    <label className="mb-5"  for="exampleTextarea">Afternoon (12pm to 6pm)</label><br/>
-                    <form>     
-                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #1"></input>
-                    <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
-                </form>  
-                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #2"></input>
-                    <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
                 <form>  
-                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #3"></input>
+                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Objective #3"></input>
                     <button className="btn btn-raised button1 mb-5" type="submit">Complete</button><br/>
-                </form> 
-                </div>
-
-                <div className="form-group designDiv3"  style={{width: "60%", margin:"auto"}}>
-                    <label className="mb-5"  for="exampleTextarea">Evening (6pm to 12am)</label><br/>
-                    <form>     
-                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #1"></input>
-                    <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
-                </form>  
-                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #2"></input>
-                    <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
+                </form>
                 <form>  
-                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #3"></input>
+                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Objective #4"></input>
                     <button className="btn btn-raised button1 mb-5" type="submit">Complete</button><br/>
-                </form> </div>
-
+                </form>
+                <form>  
+                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Objective #5"></input>
+                    <button className="btn btn-raised button1 mb-5" type="submit">Complete</button><br/>
+                </form>
+                </div>
                 <h4 className="designDiv4">Make it Happen! "The Prime Mind"</h4>
 
                 <div className="designDiv"><h4>Day 5: To Explore</h4></div>
                 
                 <div className="form-group designDiv3"  style={{width: "60%", margin:"auto"}}>
                      
-                    <label className="mb-5" for="exampleTextarea">Morning (6am to 12pm)</label><br/>
+                    <label className="mb-5" for="exampleTextarea">PLAN (Play Later, Act Now!)</label><br/>
+                    <button className="btn btn-raised button1 mb-5" type="submit">+</button><br/>
                 <form>     
                     <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #1"></input>
                     <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
                 </form>  
-                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #2"></input>
+                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Objective #1"></input>
                     <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
                 <form>  
-                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #3"></input>
+                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Objective #2"></input>
                     <button className="btn btn-raised button1 mb-5" type="submit">Complete</button><br/>
                 </form> 
-                </div>
-
-                <div className="form-group designDiv3"  style={{width: "60%", margin:"auto"}}>
-                    <label className="mb-5"  for="exampleTextarea">Afternoon (12pm to 6pm)</label><br/>
-                    <form>     
-                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #1"></input>
-                    <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
-                </form>  
-                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #2"></input>
-                    <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
                 <form>  
-                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #3"></input>
+                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Objective #3"></input>
                     <button className="btn btn-raised button1 mb-5" type="submit">Complete</button><br/>
-                </form> 
-                </div>
-
-                <div className="form-group designDiv3"  style={{width: "60%", margin:"auto"}}>
-                    <label className="mb-5"  for="exampleTextarea">Evening (6pm to 12am)</label><br/>
-                    <form>     
-                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #1"></input>
-                    <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
-                </form>  
-                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #2"></input>
-                    <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
+                </form>
                 <form>  
-                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #3"></input>
+                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Objective #4"></input>
                     <button className="btn btn-raised button1 mb-5" type="submit">Complete</button><br/>
-                </form> </div>
+                </form>
+                <form>  
+                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Objective #5"></input>
+                    <button className="btn btn-raised button1 mb-5" type="submit">Complete</button><br/>
+                </form>
+                </div>
 
                 <h4 className="designDiv4">Make it Happen! "The Prime Mind"</h4>
 
@@ -268,45 +196,31 @@ class Design extends Component {
                 
                 <div className="form-group designDiv3"  style={{width: "60%", margin:"auto"}}>
                      
-                    <label className="mb-5" for="exampleTextarea">Morning (6am to 12pm)</label><br/>
+                    <label className="mb-5" for="exampleTextarea">PLAN (Play Later, Act Now!)</label><br/>
+                    <button className="btn btn-raised button1 mb-5" type="submit">+</button><br/>
                 <form>     
                     <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #1"></input>
                     <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
                 </form>  
-                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #2"></input>
+                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Objective #1"></input>
                     <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
                 <form>  
-                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #3"></input>
+                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Objective #2"></input>
                     <button className="btn btn-raised button1 mb-5" type="submit">Complete</button><br/>
                 </form> 
-                </div>
-
-                <div className="form-group designDiv3"  style={{width: "60%", margin:"auto"}}>
-                    <label className="mb-5"  for="exampleTextarea">Afternoon (12pm to 6pm)</label><br/>
-                    <form>     
-                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #1"></input>
-                    <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
-                </form>  
-                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #2"></input>
-                    <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
                 <form>  
-                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #3"></input>
+                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Objective #3"></input>
                     <button className="btn btn-raised button1 mb-5" type="submit">Complete</button><br/>
-                </form> 
-                </div>
-
-                <div className="form-group designDiv3"  style={{width: "60%", margin:"auto"}}>
-                    <label className="mb-5"  for="exampleTextarea">Evening (6pm to 12am)</label><br/>
-                    <form>     
-                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #1"></input>
-                    <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
-                </form>  
-                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #2"></input>
-                    <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
+                </form>
                 <form>  
-                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #3"></input>
+                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Objective #4"></input>
                     <button className="btn btn-raised button1 mb-5" type="submit">Complete</button><br/>
-                </form> </div>
+                </form>
+                <form>  
+                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Objective #5"></input>
+                    <button className="btn btn-raised button1 mb-5" type="submit">Complete</button><br/>
+                </form>
+                </div>
 
                 <h4 className="designDiv4">Make it Happen! "The Prime Mind"</h4>
 
@@ -314,45 +228,31 @@ class Design extends Component {
                 
                 <div className="form-group designDiv3"  style={{width: "60%", margin:"auto"}}>
                      
-                    <label className="mb-5" for="exampleTextarea">Morning (6am to 12pm)</label><br/>
+                    <label className="mb-5" for="exampleTextarea">PLAN (Play Later, Act Now!)</label><br/>
+                    <button className="btn btn-raised button1 mb-5" type="submit">+</button><br/>
                 <form>     
                     <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #1"></input>
                     <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
                 </form>  
-                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #2"></input>
+                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Objective #1"></input>
                     <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
                 <form>  
-                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #3"></input>
+                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Objective #2"></input>
                     <button className="btn btn-raised button1 mb-5" type="submit">Complete</button><br/>
                 </form> 
-                </div>
-
-                <div className="form-group designDiv3"  style={{width: "60%", margin:"auto"}}>
-                    <label className="mb-5"  for="exampleTextarea">Afternoon (12pm to 6pm)</label><br/>
-                    <form>     
-                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #1"></input>
-                    <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
-                </form>  
-                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #2"></input>
-                    <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
                 <form>  
-                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #3"></input>
+                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Objective #3"></input>
                     <button className="btn btn-raised button1 mb-5" type="submit">Complete</button><br/>
-                </form> 
-                </div>
-
-                <div className="form-group designDiv3"  style={{width: "60%", margin:"auto"}}>
-                    <label className="mb-5"  for="exampleTextarea">Evening (6pm to 12am)</label><br/>
-                    <form>     
-                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #1"></input>
-                    <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
-                </form>  
-                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #2"></input>
-                    <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
+                </form>
                 <form>  
-                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #3"></input>
+                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Objective #4"></input>
                     <button className="btn btn-raised button1 mb-5" type="submit">Complete</button><br/>
-                </form> </div>
+                </form>
+                <form>  
+                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Objective #5"></input>
+                    <button className="btn btn-raised button1 mb-5" type="submit">Complete</button><br/>
+                </form>
+                </div>
 
                 <h4 className="designDiv4">Make it Happen! "The Prime Mind"</h4>
 
@@ -360,45 +260,31 @@ class Design extends Component {
                
                 <div className="form-group designDiv3"  style={{width: "60%", margin:"auto"}}>
                      
-                     <label className="mb-5" for="exampleTextarea">Morning (6am to 12pm)</label><br/>
-                 <form>     
-                     <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #1"></input>
-                     <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
-                 </form>  
-                     <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #2"></input>
-                     <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
-                 <form>  
-                     <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #3"></input>
-                     <button className="btn btn-raised button1 mb-5" type="submit">Complete</button><br/>
-                 </form> 
-                 </div>
- 
-                 <div className="form-group designDiv3"  style={{width: "60%", margin:"auto"}}>
-                     <label className="mb-5"  for="exampleTextarea">Afternoon (12pm to 6pm)</label><br/>
-                     <form>     
-                     <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #1"></input>
-                     <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
-                 </form>  
-                     <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #2"></input>
-                     <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
-                 <form>  
-                     <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #3"></input>
-                     <button className="btn btn-raised button1 mb-5" type="submit">Complete</button><br/>
-                 </form> 
-                 </div>
- 
-                 <div className="form-group designDiv3"  style={{width: "60%", margin:"auto"}}>
-                     <label className="mb-5"  for="exampleTextarea">Evening (6pm to 12am)</label><br/>
-                     <form>     
-                     <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #1"></input>
-                     <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
-                 </form>  
-                     <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #2"></input>
-                     <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
-                 <form>  
-                     <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #3"></input>
-                     <button className="btn btn-raised button1 mb-5" type="submit">Complete</button><br/>
-                 </form> </div>
+                    <label className="mb-5" for="exampleTextarea">PLAN (Play Later, Act Now!)</label><br/>
+                    <button className="btn btn-raised button1 mb-5" type="submit">+</button><br/>
+                <form>     
+                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #1"></input>
+                    <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
+                </form>  
+                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Objective #1"></input>
+                    <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
+                <form>  
+                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Objective #2"></input>
+                    <button className="btn btn-raised button1 mb-5" type="submit">Complete</button><br/>
+                </form> 
+                <form>  
+                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Objective #3"></input>
+                    <button className="btn btn-raised button1 mb-5" type="submit">Complete</button><br/>
+                </form>
+                <form>  
+                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Objective #4"></input>
+                    <button className="btn btn-raised button1 mb-5" type="submit">Complete</button><br/>
+                </form>
+                <form>  
+                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Objective #5"></input>
+                    <button className="btn btn-raised button1 mb-5" type="submit">Complete</button><br/>
+                </form>
+                </div>
 
                 <h4 className="designDiv4">Make it Happen! "The Prime Mind"</h4>
 
@@ -406,45 +292,31 @@ class Design extends Component {
                 
                 <div className="form-group designDiv3"  style={{width: "60%", margin:"auto"}}>
                      
-                    <label className="mb-5" for="exampleTextarea">Morning (6am to 12pm)</label><br/>
+                    <label className="mb-5" for="exampleTextarea">PLAN (Play Later, Act Now!)</label><br/>
+                    <button className="btn btn-raised button1 mb-5" type="submit">+</button><br/>
                 <form>     
                     <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #1"></input>
                     <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
                 </form>  
-                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #2"></input>
+                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Objective #1"></input>
                     <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
                 <form>  
-                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #3"></input>
+                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Objective #2"></input>
                     <button className="btn btn-raised button1 mb-5" type="submit">Complete</button><br/>
                 </form> 
-                </div>
-
-                <div className="form-group designDiv3"  style={{width: "60%", margin:"auto"}}>
-                    <label className="mb-5"  for="exampleTextarea">Afternoon (12pm to 6pm)</label><br/>
-                    <form>     
-                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #1"></input>
-                    <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
-                </form>  
-                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #2"></input>
-                    <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
                 <form>  
-                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #3"></input>
+                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Objective #3"></input>
                     <button className="btn btn-raised button1 mb-5" type="submit">Complete</button><br/>
-                </form> 
-                </div>
-
-                <div className="form-group designDiv3"  style={{width: "60%", margin:"auto"}}>
-                    <label className="mb-5"  for="exampleTextarea">Evening (6pm to 12am)</label><br/>
-                    <form>     
-                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #1"></input>
-                    <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
-                </form>  
-                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #2"></input>
-                    <button className="btn btn-raised button1 mb-5" type="submit">Complete</button>
+                </form>
                 <form>  
-                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Goal #3"></input>
+                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Objective #4"></input>
                     <button className="btn btn-raised button1 mb-5" type="submit">Complete</button><br/>
-                </form> </div>
+                </form>
+                <form>  
+                    <input className="form-control" id="exampleTextarea" rows="2" placeholder="Objective #5"></input>
+                    <button className="btn btn-raised button1 mb-5" type="submit">Complete</button><br/>
+                </form>
+                </div>
 
                 <h4 className="designDiv4">Make it Happen! "The Prime Mind"</h4>
 
@@ -485,7 +357,7 @@ class Design extends Component {
                         
 
                 </div>
-            </div>
+            
         )
     }
 }
